@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<style>
+html,body{
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+}
+
+body{
+border:2px solid black;
+background-color:tan;
+display:grid;
+grid-template-rows:1fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr;
+gap:5px;
+grid-template-areas:
+"head head head"
+"box1 box2 box3"
+"content content content"
+"box4 box5 box6";
+
+}
+
+
+div.one{
+background-color:green;
+grid-area:head;
+width:100%;
+height:px;
+} 
+
+div.two{
+background-color:pink;
+grid-area:box1;
+width:100%;
+height:50px;
+}
+
+div.three{
+background-color:red;
+grid-area:box2;
+width:100%;
+height:50px;
+}
+ 
+div.four{
+background-color:blue;
+grid-area:box3;
+width:100%;
+height:50px;
+}
+ 
+div.five{
+background-color:purple;
+grid-area:content;
+width:100%;
+height:100px;
+}
+
+div.six{
+background-color:silver;
+grid-area:box4;
+width:100%;
+height:50px;
+}
+
+div.seven{
+background-color:white;
+grid-area:box5;
+width:100%;
+height:50px;
+}
+
+div.eight{
+background-color:yellow;
+grid-area:box6;
+width:100%;
+height:50px;
+}
+
+
+</style>
+<title> OMG </title>
+</head>
+<body>
+
+<div class="one">one</div>
+<div class="two">two</div>
+<div class="three">three</div>
+<div class="four">four</div>
+<div class="five">five</div>
+<div class="six">six</div>
+<div class="seven">seven</div>
+<div class="eight">eight</div>
+
+
+</body>
+</html>
